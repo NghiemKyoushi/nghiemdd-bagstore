@@ -21,7 +21,7 @@ export default function DetailModal(props: modalProps) {
             <ModalHeader>Modal Title</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
-              <Lorem count={2} />
+              {/* <Lorem count={2} /> */}
             </ModalBody>
             <ModalFooter>
               <Button colorScheme='blue' mr={3} onClick={props.onClose}>
