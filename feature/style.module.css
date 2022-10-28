@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1;
+    align-items: center;
+    width: 95%;
+    padding-top: 10px;
+    position: fixed;
+}
+.iconHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 59px;
+}
+.productContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
